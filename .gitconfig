@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	ll = log --graph --abbrev-commit --decorate --all --pretty=format:'%C(bold cyan)[%an]%Creset %C(bold green)(%cs|%Cblue%cr) %C(bold yellow)%h%Creset: %C(bold red)%d%Creset%n%<(50,trunc)%s%n'
+[core]
+	pager = less -F -X
